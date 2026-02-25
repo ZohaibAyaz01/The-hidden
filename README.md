@@ -16,20 +16,19 @@
 
 ## Requirements
 
-The script relies on standard Linux command-line tools:
+This project is a Bash script, so it must run in a Unix-like shell environment.
+
+### Linux
+
+Install standard CLI tools:
 
 - bash
 - coreutils (`stat`, `dd`, `wc`, etc.)
-- awk
+- gawk
 - grep
 - file
-- strings
-- hexdump
-- od
+- binutils (`strings`, `hexdump`, `od`)
 - xxd
-- sha256sum
-
-See `requirements.txt` for a package-style dependency list.
 
 ## Usage
 
